@@ -1,0 +1,226 @@
+body{
+    background: url("https://images.pexels.com/photos/128639/pexels-photo-128639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  }
+  .container{
+    margin: 0 auto;  
+  }
+  .simonBoard {
+    text-align: center;
+    margin: 50px auto;
+    width: 572px;
+    height: 572px;
+    background-color: #333;
+    border-radius: 100%;
+    box-shadow: 2px 2px 10px #222;
+  }
+  .pad{
+    margin: 0;
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: solid 12px #333;
+  }
+  .green{
+    margin-top: 12px;
+    margin-left: 12px;
+    background-color: #00a74a;
+    border-top-left-radius : 100%;
+  }
+  .red{
+    margin-top: 12px;
+    background-color: #9f0f17;
+    border-top-right-radius : 100%;
+  }
+  .yellow{
+    margin-left: 12px;
+    background-color: #cca707;
+    border-bottom-left-radius : 100%;
+  }
+  .blue{
+    background-color: #094a8f;
+    border-bottom-right-radius : 100%;
+  }
+  .green.light{
+    background-color : #13ff7c;
+  }
+  .red.light{
+    background-color : #ff4c4c;
+  }
+  .yellow.light{
+    background-color : #fed93f;
+  }
+  .blue.light{
+    background-color : #1c8cff;
+  }
+  .controls{
+    width: 250px;
+    height: 250px;
+    position: absolute; 
+    margin-left: 149px;
+    margin-top: 149px;
+    background-color: white;
+    border: solid 12px #333;
+    border-radius: 100%;    
+  }
+  .title{
+    font-family: "Righteous";
+    margin-top: 30px;
+    font-size: 3.5em;
+    font-weight: bold;
+  }
+  .myCtrl{
+    margin-top: 5px;
+  }
+  .inline{
+    display: inline-block;
+  }
+  .display{
+    width : 70px;
+    position:relative;
+    text-align:center;
+  }
+  .myBtn{
+    margin-left: 15px;
+    width : 50px;
+    position:relative;
+  }
+  .count{
+    font-family: 'Press Start 2P', monospace;
+    font-size: 1.3em;
+    position: relative;
+    width: 60px;
+    height: 38px;
+    line-height: 40px;
+    margin: auto;
+    background-color: #320606;
+    border: solid 4px black;
+    border-radius: 10px;
+    color: #DC0D29; 
+  }
+  .status-off{
+    color:#430710;
+  }
+  .round-btn{
+    width : 25px;
+    height : 25px;
+    position: relative;
+    background-color : red;
+    border-radius : 100%;
+    border : 4px solid #444;
+    box-shadow : 1px 2px 3px #222;
+    top : -5px;   
+    margin:auto; 
+  }
+  .s-btn{
+    background-color : yellow;
+  }
+  .round-btn:active{
+      box-shadow : 0 1px 1px #333;
+      top : -4px;
+  }
+  .led{
+    width:6px;
+    height:6px;
+    background-color: grey;
+    border-radius : 100%;
+    position: absolute; 
+    border: 2px solid #222;
+    margin-top: -19px;
+    margin-left: 20px;
+  }
+  
+  .unclickable{
+    pointer-events:none;
+  }
+  
+  .label{
+    font-family: "Jura";
+    margin-top: 8px;
+    text-align: center;
+    color: black;
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  .outer-switch{
+    width: 46px;
+    height: 23px;
+    border: solid 1px black;
+    border-radius:2px;
+    background-color: #25282d;
+    margin-top:5px;
+  }
+  .inner-switch{
+    width: 19px;
+    height: 19px;
+    border: solid 2px #2b3b54;
+    border-radius:2px;
+    background-color: #3b76d6;
+  }
+  .switch-on{
+    margin-left: 23px;
+  }
+  .led-on{
+    background-color:#DC0D29;
+  }
+  .clickable{
+    cursor:pointer;
+  }
+  .helper{
+    width: 600px;
+    height: 360px;
+    border: solid 5px #01579B;
+    border-radius: 15px;
+    background-color: white;
+    margin: 40px auto;
+  }
+  .lifes{
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px 20px 5px 20px;
+    background-color: #B2EBF2;
+  }
+  .userLife{
+    font-size: 25px;
+    margin-right: 10px;
+    font-family: 'Press Start 2P', monospace;
+  }
+  .instr{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .how{
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: 'Fascinate Inline';
+    color: #1A237E;
+  }
+  .p1, .uL{
+    margin-top: -5px;
+    font-size: 19px;
+    font-family: 'Kanit';
+    line-height: 1.3;
+  }
+  .tryIt{
+    font-family: "Macondo";
+    text-align: center;
+    font-size: 30px;
+    line-height: 0.6;
+    color: #D500F9;
+  }
+  #heart1{
+    font-size: 40px;
+    color: red;  
+  }
+  .emptyHeart{
+    font-size: 40px;
+    opacity: 0; 
+  }
+  #heart2{
+    position: absolute;
+    font-size: 42px;
+    color: black;
+    margin-left: -40px;
+    margin-top: -1px;
+  }
+  
+  
